@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="parallax_1" id="home">
+        <header>
+            <a href="#" class="logo">A</a>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+    </div>
+
+    <div class="content_1" id="about">
+        <h1>About</h1>
+        <p>My name is Artemijs, and my portfolio is a representation of all that I’ve learned and accomplished as developer student. I am constantly striving to improve and expand my knowledge in the Information Technology industry. I love designing websites and am looking for more opportunities to work in coding on a permanent basis.</p>
+    </div>
+    
+    <div class="parallax_2 container" id="work">
+        <button onclick="window.location.href = 'https://artemijskodehode.github.io/Click/';">Click me</button>
+        <div class="dropdown">
+            <input type="text" class="text02" readonly
+            placeholder="Other Projects">
+            <div class="option">
+                <div onmouseover="show('Christmas Wish list')" onclick="window.location.href = 'https://artemijskodehode.github.io/list/';">Christmas Wish list</div>
+                <div onmouseover="show('Netflix')" onclick="window.location.href = 'https://www.figma.com/file/AMePzlD3W0ZcIfOduysARU/Netflix?node-id=0%3A1&t=AMhtswuEomcvPMUl-0';">Netflix</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content_2" id="contact">
+        <div id="text"></div>
+    </div>
+</body>
+</html>
